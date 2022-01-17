@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" HorizontalContentAlignment="Center" Name="settings" ResizeMode="NoResize" ScrollViewer.VerticalScrollBarVisibility="Disabled" ShowInTaskbar="False" SizeToContent="Height" Title="Settings" Width="400" WindowStartupLocation="CenterScreen">
+    <StackPanel HorizontalAlignment="Stretch" Margin="10">
+        <GroupBox Header="Optimisation Parameters" Margin="0,10,0,0">
+            <StackPanel>
+                <TextBlock Margin="0,25,0,0" Text="Weight1 (less bars as possible):" />
+                <TextBox DockPanel.Dock="Right" Text="{Binding ElementName=slider_w1, Path=Value, UpdateSourceTrigger=PropertyChanged}" TextAlignment="Right" Width="40" />
+                <Slider Maximum="10.0" Minimum="0.0" Name="slider_w1" TickFrequency="1.0" TickPlacement="BottomRight" Value="0.0" />
+                <TextBlock Margin="0,25,0,0" Text="Weight2 (reduce difference between inserted and required):" />
+                <TextBox DockPanel.Dock="Right" Text="{Binding ElementName=slider_w2, Path=Value, UpdateSourceTrigger=PropertyChanged}" TextAlignment="Right" Width="40" />
+                <Slider Maximum="10.0" Minimum="0.0" Name="slider_w2" TickFrequency="1.0" TickPlacement="BottomRight" Value="0.0" />
+                <TextBlock Margin="0,25,0,0" Text="Weight3 (prefer same spacing):" />
+                <TextBox DockPanel.Dock="Right" Text="{Binding ElementName=slider_w3, Path=Value, UpdateSourceTrigger=PropertyChanged}" TextAlignment="Right" Width="40" />
+                <Slider Maximum="10.0" Minimum="0.0" Name="slider_w3" TickFrequency="1.0" TickPlacement="BottomRight" Value="4.0" />
+                <TextBlock Margin="0,25,0,0" Text="Weight4 (prefer same diameter):" />
+                <TextBox DockPanel.Dock="Right" Text="{Binding ElementName=slider_w4, Path=Value, UpdateSourceTrigger=PropertyChanged}" TextAlignment="Right" Width="40" />
+                <Slider Maximum="10.0" Minimum="0.0" Name="slider_w4" TickFrequency="1.0" TickPlacement="BottomRight" Value="0.0" />
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="Configuration Parameters" Margin="0,10,0,0">
+            <StackPanel>
+                <TextBlock Margin="0,25,0,0" Text="Merge length (for grouping):" />
+                <TextBox DockPanel.Dock="Right" Text="{Binding ElementName=slider_ml, Path=Value, UpdateSourceTrigger=PropertyChanged}" TextAlignment="Right" Width="40" />
+                <Slider Maximum="2.0" Minimum="0.0" Name="slider_ml" TickFrequency="0.2" TickPlacement="BottomRight" Value="0.6" />
+            </StackPanel>
+        </GroupBox>
+        <Button Click="save_reinfsettings" Content="OK" Height="35" IsDefault="True" Margin="0,10,0,0" Name="buttonclick1">
+                    </Button>
+    </StackPanel>
+</Window>

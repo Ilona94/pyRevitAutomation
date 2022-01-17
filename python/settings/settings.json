@@ -1,0 +1,80 @@
+{
+    "global": {
+        "CCClass": "CC1",
+        "slider_w1": 3.0,
+        "slider_w2": 2.0,
+        "slider_w3": 1.0,
+        "slider_w4": 1.0,
+        "slider_ml": 0.6,
+        "upp_dir": 0,
+        "low_dir": 0
+    },
+    "analysis": {
+        "engine": "Sofistik 2018",
+        "path_exe": "C:\\Program Files\\SOFiSTiK\\2018\\SOFiSTiK 2018\\wps.exe",
+        "grouping_param": "SOFiSTiK_Group",
+        "CCClass": "CC1",   
+        "cover_top": 25,
+        "cover_bottom": 25,
+        "principle_top": 12,
+        "cross_top": 12,
+        "principle_bottom": 12,
+        "cross_bottom": 12,
+        "ro_v": 0.2,
+        "ro_v2": 1.5      
+    },
+    "drawings": {
+        "drawing_tag_left": "",
+        "drawing_tag_right": "",
+        "drawing_sum_tag_left": "",
+        "drawing_sum_tag_right": "",
+        "drawing_multi_tag_left": "",
+        "drawing_multi_tag_right": "",
+        "checking_tolerance": 51,
+        "bar_annotation_position":""
+
+    },
+    "paths": {
+        "settings_path": "",
+        "schedule_template_path": "",
+        "schedule_export_location": "",
+        "destination_location": "",
+        "image_location": "",
+        "Excel_Link":""
+    },
+    "rc_modeling": {
+        "width_ignored": 100,
+        "lap_6": 0,
+        "lap_8": 0,
+        "lap_10": 390,
+        "lap_12": 510,
+        "lap_14": 0,
+        "lap_16": 740,
+        "lap_20": 970,
+        "lap_25": 1260,
+        "lap_32": 1610,
+        "lap_40": 1800
+    },
+    "floors": {
+        "Reinforcement_Cover_Side": "30 mm", 
+        "Reinforcement_Bars_Diameter_B2": "10 mm", 
+        "Reinforcement_Bars_Spacing_T2": "100 mm", 
+        "Reinforcement_Bars_Spacing_T1": "100 mm", 
+        "Design_Element_Crack Width Limit": "0", 
+        "Reinforcement_Cover_Bottom": "30 mm", 
+        "Reinforcement_Bars_Diameter_T1": "10 mm", 
+        "Reinforcement_Cover_Nominal": "30 mm", 
+        "Reinforcement_Bars_Diameter_B1": "10 mm", 
+        "Reinforcement_Bars_Diameter_T2": "10 mm", 
+        "Reinforcement_Cover_Top": "30 mm", 
+        "Reinforcement_Bars_Spacing_B2": "100 mm", 
+        "Reinforcement_Bars_Spacing_B1": "100 mm"
+    },
+
+    "walls": {},
+
+    "beams": {},
+
+    "columns": {}
+}
+
