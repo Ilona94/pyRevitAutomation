@@ -1,0 +1,14 @@
+{
+    "builtin": "False",
+    "default_enabled": "True",
+    "type": "extension",
+    "rocket_mode_compatible": "True",
+    "name": "RC",
+    "description": "Revit pushbuttons helping with reinfocement 3D modelling",
+    "author": "Agnieszka Tatarczak",
+    "author_profile": "https://gitlab.arup.com/Agnieszka.Tatarczak",
+    "url": "https://gitlab.arup.com/arup-poland/structural/pyrevit-automation/-/tree/master/RC/RC.extension",
+    "website": "https://gitlab.arup.com/arup-poland/structural/pyrevit-automation/-/tree/master/RC/RC.extension",
+    "image": "",
+    "dependencies": []
+}
